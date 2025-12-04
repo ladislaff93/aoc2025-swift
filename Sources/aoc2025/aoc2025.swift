@@ -4,6 +4,7 @@ import day1
 import day2
 import day3
 import day4
+import day5
 import helpers
 
 @main
@@ -26,6 +27,7 @@ struct aoc2025 {
             "2": ["1": Day2_1(), "2": Day2_2()],
             "3": ["1": Day3_1(), "2": Day3_2()],
             "4": ["1": Day4_1(), "2": Day4_2()],
+            "5": ["1": Day5_1(), "2": Day5_2()],
         ]
 
         print("")
@@ -33,9 +35,9 @@ struct aoc2025 {
         print("...EXECUTING A*VENT OF CODE...")
         print("...EXECUTING -*-ENT OF CODE...")
         print("...EXECUTING-*---NT OF CODE...")
-        print("...EXECUTIN-------T OF CODE...")
-        print("...EXECUTI-----*--- OF CODE...")
-        print("...EXECUT---*-------OF CODE...")
+        print("...EXECUTING------T OF CODE...")
+        print("...EXECUTIN----*--- OF CODE...")
+        print("...EXECUTI--*-------OF CODE...")
         print("...EXECUT-*---*--*---F CODE...")
         print("...EXECU-----------*-- CODE...")
         print("...EXEC--*---*---*-----CODE...")
