@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "aoc2025",
-            dependencies: ["day1", "day2", "day3", "day4", "day5"]
+            dependencies: ["day1", "day2", "day3", "day4", "day5", "day6"]
         ),
 
         .target(
@@ -36,6 +36,11 @@ let package = Package(
         ),
         .target(
             name: "day5",
+            dependencies: ["helpers"],
+            exclude: ["input", "test_input"],
+        ),
+        .target(
+            name: "day6",
             dependencies: ["helpers"],
             exclude: ["input", "test_input"],
         ),
