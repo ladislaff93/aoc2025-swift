@@ -6,6 +6,8 @@ import day3
 import day4
 import day5
 import day6
+import day7
+import day8
 import helpers
 
 @main
@@ -30,6 +32,8 @@ struct aoc2025 {
             "4": ["1": Day4_1(), "2": Day4_2()],
             "5": ["1": Day5_1(), "2": Day5_2()],
             "6": ["1": Day6_1(), "2": Day6_2()],
+            "7": ["1": Day7_1(), "2": Day7_2()],
+            "8": ["1": Day8_1(), "2": Day8_2()],
         ]
 
         print("")
