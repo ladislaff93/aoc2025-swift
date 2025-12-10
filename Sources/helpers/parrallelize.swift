@@ -7,3 +7,4 @@ public func solveParallel<T, R>(_ items: [T], transform: @escaping (T) -> R) -> 
     }
     return results.compactMap(\.self)
 }
+

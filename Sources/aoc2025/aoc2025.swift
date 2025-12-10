@@ -1,6 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 import day1
+import day10
+import day11
+import day12
 import day2
 import day3
 import day4
@@ -8,6 +11,7 @@ import day5
 import day6
 import day7
 import day8
+import day9
 import helpers
 
 @main
@@ -34,6 +38,10 @@ struct aoc2025 {
             "6": ["1": Day6_1(), "2": Day6_2()],
             "7": ["1": Day7_1(), "2": Day7_2()],
             "8": ["1": Day8_1(), "2": Day8_2()],
+            "9": ["1": Day9_1(), "2": Day9_2()],
+           "10": ["1": Day10_1(), "2": Day10_2()],
+           "11": ["1": Day11_1(), "2": Day11_2()],
+           "12": ["1": Day12_1(), "2": Day12_2()],
         ]
 
         print("")
